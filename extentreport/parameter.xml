@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+	<parameter name="URL" value="http://13.232.48.225/opentaps"></parameter>
+	<parameter name="userName" value="DemoCSR"></parameter>
+	<parameter name="password" value="crmsfa"></parameter>
+	<test name="Test">
+		<classes>
+			<class name="leaf.leads.CreateLead" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

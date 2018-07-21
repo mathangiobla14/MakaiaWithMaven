@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Annotation]">
+  <test thread-count="5" verbose="10" name="Lead(failed)">
+    <classes>
+      <class name="week6day1.CreateLead">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="createLead"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setValue"/>
+        </methods>
+      </class> <!-- week6day1.CreateLead -->
+    </classes>
+  </test> <!-- Lead(failed) -->
+</suite> <!-- Failed suite [Annotation] -->
