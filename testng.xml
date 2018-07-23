@@ -8,8 +8,7 @@
 		<classes>
 
 			<class name="week6day1.CreateLead" />
-			<!-- <class name="tests.EditLead"/> <class name="tests.DeleteLead"/> <class 
-				name="tests.MergeLead"/> -->
+
 		</classes>
-	</test> <!-- Lead -->
-</suite> <!-- Annotations -->
+	</test>
+</suite> 

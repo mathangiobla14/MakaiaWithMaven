@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Annotation]">
+  <parameter name="password" value="crmsfa"/>
+  <parameter name="userid" value="DemoSalesManager"/>
+  <parameter name="url" value="http://leaftaps.com/opentaps/"/>
   <test thread-count="5" verbose="10" name="Lead(failed)">
     <classes>
       <class name="week6day1.CreateLead">
@@ -10,11 +13,11 @@
           <include name="beforeMethod"/>
           <include name="createLead"/>
           <include name="afterSuite"/>
+          <include name="createLead"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="afterTest"/>
           <include name="beforeSuite"/>
-          <include name="setValue"/>
         </methods>
       </class> <!-- week6day1.CreateLead -->
     </classes>
