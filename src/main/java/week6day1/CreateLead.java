@@ -28,6 +28,8 @@ public class CreateLead extends PreAndPost{
 	}
 
 	@Test(dataProvider= "UAT")
+	
+	//Changed
 	public void createLead(String compName, String FName, String LName, String Email, String PhNo) {
 		
 
